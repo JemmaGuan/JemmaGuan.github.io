@@ -1063,7 +1063,7 @@ pre .javascript .function {
   right: 30px;
   z-index: 1050;
   padding: 0 6px;
-  width: 24px;
+  width: initial;
   background: #222;
   font-size: 12px;
   opacity: 1;
@@ -1840,7 +1840,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #33ffe3;
+  background: #a4fbff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2749,6 +2749,33 @@ embed {
 }
 .with-love {
   color: #f00;
+}
+.ImageGrid {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card {
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  border-radius: 8px;
+  background-color: #ddd;
+}
+.ImageInCard img {
+  padding: 0 0 0 0;
+  border-radius: 8px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+.post-body p {
+  letter-spacing: 0.5px;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
